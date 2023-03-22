@@ -74,15 +74,15 @@ html {
 :root {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200FF;
-  --overlay-color: #5200FF;
+  --accent-color: #1c7a02;
+  --overlay-color: #6e0000;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Eczar', serif;
   --project-title-typeface: 'Eczar', serif;
-  --project-title-color: #723850;
+  --project-title-color: #004f15;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
@@ -472,6 +472,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #accca9;
 }
 
 /* Sidebar */
@@ -849,7 +850,9 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   .arrow {
     padding-right: 1rem;
   }
-
+  .head_style{
+    justify-content:center;
+  }
 
 }
 
