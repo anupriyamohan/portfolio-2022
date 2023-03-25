@@ -552,7 +552,7 @@ p {
   width: 100%;
   min-height: 100vh;
   background:
-  linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(94,147,57,1) 0%, rgba(158,177,76,1) 100%, rgba(46,89,27,1) 100%, rgba(0,0,0,1) 100%, rgba(36,122,139,1) 100%),
+  linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 0%, rgb(3, 3, 3) 100%, rgb(0, 0, 0) 100%, rgba(0,0,0,1) 100%, rgb(0, 0, 0) 100%),
     url(/assets/temp/noise.svg);
   /* https://grainy-gradients.vercel.app/ */
 }
