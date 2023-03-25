@@ -820,7 +820,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 65%;
+    width: 50%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
@@ -830,7 +830,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 35%;
+    width: 50%;
   }
 
   .project-image {
