@@ -742,8 +742,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
 
-
-
   /* Grayscale filter with full-colour on hover and tap */
   .work-page-grid-item a img {
     filter: grayscale(100);
@@ -822,7 +820,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 35%;
+    width: 65%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
@@ -832,7 +830,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 65%;
+    width: 35%;
   }
 
   .project-image {
