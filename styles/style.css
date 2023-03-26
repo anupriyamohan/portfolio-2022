@@ -260,6 +260,9 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+  background: url(../assets/background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .branding-navigation {
