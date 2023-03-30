@@ -264,15 +264,13 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   background-image: url(../assets/anupriya-portfolio-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-=======
   background: url(../assets/background.png);
   background-size:cover;
   background-repeat: no-repeat;
->>>>>>> 1071bfacf18d25f63b873e0743b0c9b30e75561e
+
 }
 
 .branding-navigation {
