@@ -75,7 +75,7 @@ html {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #1c7a02;
-  --overlay-color: #6e0000;
+  --overlay-color: #2b4603;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
@@ -244,7 +244,11 @@ p {
   margin-bottom: 1rem;
 }
 
-
+.link-style{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2em;
+  color:#111;
+}
 
 /* Hero 
 
@@ -260,9 +264,9 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background: url(../assets/background.png);
-  background-size:cover;
-  background-repeat: no-repeat;
+
+
+
 }
 
 .branding-navigation {
@@ -285,6 +289,9 @@ p {
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
+  background-image: url(../assets/anupriya-portfolio-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-icon {
@@ -598,7 +605,7 @@ p {
   place-items: center;
 }
 
-.error-page-wrapper {}
+
 
 .error-page-inner-container {
   text-align: center;
@@ -655,7 +662,7 @@ p {
   justify-content: center;}
 
 .sub-navigation {display: flex; flex-direction: row; justify-content: space-evenly; padding: 1rem;  text-align: center;}
-.sub-navigation-item {}
+
 a.sub-navigation-link {border: 1px solid var(--accent-color); color: var(--accent-color); padding: 1rem;}
 a.sub-navigation-link:hover {background: var(--accent-color); color: var(--floral-white); padding: 1rem;}
 
@@ -737,6 +744,9 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .hero-headline-wrapper {
     padding: 4rem 8rem;
+    background-image: url(../assets/anupriya-portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .grid {
@@ -823,7 +833,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 60%;
+    width: 35%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
@@ -833,7 +843,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 40%;
+    width: 65%;
   }
 
   .project-image {
