@@ -264,9 +264,7 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/anupriya-portfolio-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 
 
 }
@@ -291,6 +289,9 @@ p {
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
+  background-image: url(../assets/anupriya-portfolio-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-icon {
@@ -743,6 +744,9 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .hero-headline-wrapper {
     padding: 4rem 8rem;
+    background-image: url(../assets/anupriya-portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .grid {
