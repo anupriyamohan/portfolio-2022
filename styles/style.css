@@ -90,7 +90,7 @@ html {
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
+  --background-color:#eacdcf;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -289,9 +289,7 @@ p {
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
-  background-image: url(../assets/anupriya-portfolio-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .hero-icon {
@@ -744,9 +742,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .hero-headline-wrapper {
     padding: 4rem 8rem;
-    background-image: url(../assets/anupriya-portfolio-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
   }
 
   .grid {
