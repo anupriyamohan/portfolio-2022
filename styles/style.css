@@ -74,8 +74,8 @@ html {
 :root {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #1c7a02;
-  --overlay-color: #2b4603;
+  --accent-color: #dd47a0;
+  --overlay-color: #dd47a0;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
@@ -239,8 +239,8 @@ p {
 }
 
 .project-description {
-  font-size: 1.25rem;
-  line-height: 1.3;
+  font-size: 1.125rem;
+  line-height: 1.2;
   margin-bottom: 1rem;
 }
 
@@ -264,10 +264,11 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-
-
-
 }
+
+.wordmark {display: inline-block; width: 10rem;}
+
+
 
 .branding-navigation {
   display: flex;
@@ -378,7 +379,7 @@ p {
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: .8;
+  opacity: .9;
 }
 
 
@@ -480,7 +481,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #accca9;
 }
 
 /* Sidebar */
@@ -569,6 +569,9 @@ p {
 .holding-page-animation {
   margin-bottom: 1rem;
 }
+
+
+#letter-a {fill: white;}
 
 .holding-page-title {
   font-size: 1.5rem;
