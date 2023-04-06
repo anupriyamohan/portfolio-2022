@@ -14,7 +14,9 @@ Add the Google Fonts you want, remove the ones you don't.
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,500&display=swap');
 
 /*
 
@@ -74,15 +76,15 @@ html {
 :root {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #dd47a0;
-  --overlay-color: #dd47a0;
+  --accent-color: #611536;
+  --overlay-color: #f57242;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
-  --project-title-color: #004f15;
+  --body-typeface: 'Martel', serif;
+  --heading-typeface: 'Roboto Serif', serif;
+  --project-title-typeface: 'Alfa Slab One', cursive;
+  --project-title-color: #5e072d;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
@@ -90,7 +92,7 @@ html {
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color:#eacdcf;
+  --background-color:#f9afaf;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -151,7 +153,8 @@ h1 {
 
 .overlay-title {
   font-size: 2.875rem;
-}
+  text-align:center;
+  }
 
 h2 {
   font-size: 2.25rem;
@@ -382,8 +385,12 @@ p {
   opacity: .9;
 }
 
-
-
+.aside-color{
+  background-color:#fac5c5;
+}
+.aside-side-color{
+  background-color:#faeded;
+}
 
 /* 
 
@@ -399,7 +406,8 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #f5f5f5;
+  background:#f9afaf;
+  5;
   padding: 1rem;
   flex: 1;
 }
@@ -527,7 +535,23 @@ p {
   font-size: 3.25rem;
   padding: 3rem;
 }
-
+.name_effect{
+  font-family: 'Nosifer', cursive;
+  background: linear-gradient(to bottom, #ff0066 0%, #ff9999 100%);
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
 
 
 /* Main Project Image Area */
